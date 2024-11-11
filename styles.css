@@ -1,0 +1,108 @@
+/* Basic styling for the header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fdf9f9; /* Header background color */
+  }
+  /* Styling for the navigation */
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Space between each link */
+  }
+  
+  /* Styling for each anchor/link */
+  .nav-links a {
+    color: rgb(0, 0, 0); /* Link color */
+    text-decoration: none;
+    font-size: 22px;
+    transition: color 0.3s;
+    font-family: oswald;
+  }
+  
+  /* Hover effect for links */
+  .nav-links a:hover {
+    color: orange;
+  }
+  /* Styling for the logo image */
+.logo img {
+    height: 200px; /* Adjust the logo size as needed */
+  }
+.background{
+  width: 100%; /* Makes the image fit the width of its container */
+  height: auto; /* Maintains aspect ratio */
+  opacity: 0.8; /* Adjust opacity for a shadowy effect (0 is fully transparent, 1 is fully opaque) */
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-image: url('img/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  height: 400px; /* Adjust height as needed */
+}
+
+.content-left, .content-right {
+  background: rgba(0, 0, 0, 0.5); /* Adds transparency */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.content-left {
+  width: 40%;
+}
+
+.content-left h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.content-left p {
+  margin: 10px 0;
+}
+
+.contact-button {
+  display: block;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.schedule {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.content-right {
+  width: 30%;
+}
+
+.exchange-box h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.exchange-box .rate {
+  font-size: 48px;
+  margin: 5px 0;
+}
+
+.exchange-box .subtext {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.exchange-box .chart-label {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 10px;
+}
